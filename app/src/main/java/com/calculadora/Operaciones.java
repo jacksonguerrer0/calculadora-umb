@@ -6,18 +6,21 @@ final class Operaciones {
     private Operaciones() {}
 
     static BigDecimal sumar(BigDecimal a, BigDecimal b) {
-        throw new UnsupportedOperationException();
+        return a.add(b);
     }
 
     static BigDecimal restar(BigDecimal a, BigDecimal b) {
-        throw new UnsupportedOperationException();
+        return a.subtract(b);
     }
 
     static BigDecimal multiplicar(BigDecimal a, BigDecimal b) {
-        throw new UnsupportedOperationException();
+        return a.multiply(b);
     }
 
     static BigDecimal dividir(BigDecimal a, BigDecimal b) {
-        throw new UnsupportedOperationException();
+        if (b.compareTo(BigDecimal.ZERO) == 0) {
+            throw new ArithmeticException("Division by zero");
+        }
+        return a.divide(b, BigDecimal.ROUND_HALF_UP);
     }
 }
