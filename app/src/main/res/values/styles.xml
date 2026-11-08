@@ -1,0 +1,58 @@
+<resources>
+    <style name="AppTheme" parent="@android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowBackground">@color/paper</item>
+        <item name="android:colorAccent">@color/accent</item>
+        <item name="android:statusBarColor">@color/bar</item>
+        <item name="android:navigationBarColor">@color/bar</item>
+    </style>
+    <style name="BaseText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/ink</item>
+    </style>
+    <style name="Brand" parent="BaseText">
+        <item name="android:textColor">@color/accent</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">0.10</item>
+        <item name="android:layout_marginBottom">24dp</item>
+    </style>
+    <style name="Title" parent="BaseText">
+        <item name="android:textSize">31sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginBottom">12dp</item>
+    </style>
+    <style name="Body" parent="BaseText">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/muted</item>
+        <item name="android:layout_marginBottom">12dp</item>
+    </style>
+    <style name="Label" parent="BaseText">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+    <style name="Field" parent="BaseText">
+        <item name="android:minHeight">48dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="Action">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:layout_marginTop">12dp</item>
+        <item name="android:backgroundTint">@color/accent</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="Answer" parent="BaseText">
+        <item name="android:background">@color/pale</item>
+        <item name="android:padding">18dp</item>
+        <item name="android:layout_marginTop">12dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:accessibilityLiveRegion">polite</item>
+    </style>
+</resources>

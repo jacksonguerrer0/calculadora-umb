@@ -1,0 +1,73 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@color/paper">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+        <TextView
+            style="@style/Brand"
+            android:text="@string/brand" />
+
+        <TextView
+            style="@style/Title"
+            android:text="@string/title" />
+
+        <TextView
+            style="@style/Body"
+            android:text="@string/intro" />
+
+        <TextView
+            style="@style/Label"
+            android:text="@string/first"
+            android:labelFor="@+id/primero" />
+
+        <EditText
+            style="@style/Field"
+            android:id="@+id/primero"
+            android:inputType="numberDecimal|numberSigned" android:digits="0123456789-,." android:hint="@string/example_a" android:maxLength="18" />
+
+        <TextView
+            style="@style/Label"
+            android:text="@string/second"
+            android:labelFor="@+id/segundo" />
+
+        <EditText
+            style="@style/Field"
+            android:id="@+id/segundo"
+            android:inputType="numberDecimal|numberSigned" android:digits="0123456789-,." android:hint="@string/example_b" android:maxLength="18" />
+
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button style="@style/Action" android:id="@+id/sumar"
+                android:layout_width="0dp" android:layout_weight="1"
+                android:text="@string/add" android:contentDescription="@string/op_add" />
+            <Button style="@style/Action" android:id="@+id/restar"
+                android:layout_width="0dp" android:layout_weight="1"
+                android:text="@string/sub" android:contentDescription="@string/op_sub" />
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button style="@style/Action" android:id="@+id/multiplicar"
+                android:layout_width="0dp" android:layout_weight="1"
+                android:text="@string/mul" android:contentDescription="@string/op_mul" />
+            <Button style="@style/Action" android:id="@+id/dividir"
+                android:layout_width="0dp" android:layout_weight="1"
+                android:text="@string/div" android:contentDescription="@string/op_div" />
+        </LinearLayout>
+
+        <TextView
+            style="@style/Label"
+            android:text="@string/answer" />
+
+        <TextView
+            style="@style/Answer"
+            android:text="@string/waiting"
+            android:id="@+id/resultado"
+            android:freezesText="true" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,8 @@
+<resources>
+    <color name="ink">#17262A</color>
+    <color name="muted">#435A5D</color>
+    <color name="paper">#FAF9F5</color>
+    <color name="accent">#204D87</color>
+    <color name="bar">#172E50</color>
+    <color name="pale">#E2ECFA</color>
+</resources>

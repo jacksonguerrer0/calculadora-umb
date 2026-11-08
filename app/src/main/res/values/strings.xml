@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Calculadora</string>
+    <string name="brand">MATEMÁTICAS</string>
+    <string name="title">Calculadora</string>
+    <string name="intro">Escribe dos números y elige una operación.</string>
+    <string name="first">Primer número</string>
+    <string name="second">Segundo número</string>
+    <string name="example_a">Ej. 7,5</string>
+    <string name="example_b">Ej. 2</string>
+    <string name="add">+</string>
+    <string name="sub">−</string>
+    <string name="mul">×</string>
+    <string name="div">÷</string>
+    <string name="op_add">Sumar</string>
+    <string name="op_sub">Restar</string>
+    <string name="op_mul">Multiplicar</string>
+    <string name="op_div">Dividir</string>
+    <string name="answer">Resultado</string>
+    <string name="waiting">El resultado aparecerá aquí.</string>
+    <string name="invalid">Escribe un número válido.</string>
+    <string name="zero">No se puede dividir entre cero.</string>
+    <string name="pending">Esta operación está pendiente de implementación.</string>
+</resources>
