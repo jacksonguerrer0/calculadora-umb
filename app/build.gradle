@@ -2,11 +2,11 @@ plugins {
     id 'com.android.application'
 }
 android {
-    namespace 'co.edu.umb.calculadora'
+    namespace 'com.calculadora'
     compileSdk 35
 
     defaultConfig {
-        applicationId 'co.edu.umb.calculadora'
+        applicationId 'com.calculadora'
         minSdk 23
         targetSdk 34
         versionCode 1
